@@ -7,5 +7,9 @@ In addition to contaminant filtering and total sum scaling, we are also attempti
 data to the Lactococcus relative abundance under the assumption that the rate of contamination is constant throughout
 the timecourse. In doing so, we hoped create a pseudo measure of absolute abundance.
 
-To run the bootleg core diversity analysis, execute the following:
+To run the core diversity analysis, execute the following:
+
 `sh core_diversity_analysis.sh`
+
+The `bootleg_core_div_analysis.ipynb` contains code to execute the same analysis using skbio.
+This is painfully slow, even with parallelization, and is strictly for educational purposes.
